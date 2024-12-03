@@ -13,3 +13,5 @@ Please note:
 ### If You Solve the Challenge
 
 Once you've identified the bug, exploit it to bypass the authentication. Post your solution on Twitter using the hashtag #CTFCodeReview and tag @coffeensecurity. We’ll be tracking submissions and will announce the winner two weeks after the post!
+
+You may also directly respond to the Twitter post here: https://twitter.com/coffeensecurity/status/1863838485695861246.
