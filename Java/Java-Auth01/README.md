@@ -8,7 +8,7 @@ The login module authenticates users based on a hashed password stored in an SQL
 
 ## Goal of the Challenge
 
-The main objective of this challenge is to review the Java code and identify a **bug** that can be exploited to bypass the authentication mechanism. While **dynamic testing** (running the application and trying to break it) is allowed, the primary task is to perform **static code analysis** to find the flaw in the code.
+The main objective of this challenge is to review the Java code and identify a bug that can be exploited to bypass the authentication mechanism. While dynamic testing (running the application and trying to break it) is allowed, the primary task is to perform static code analysis to find the flaw in the code.
 
 Please note:
 - **MFA (Multi-Factor Authentication)** and **Brute Force Protection** are not implemented, nor are they the focus of this challenge. 
@@ -42,3 +42,7 @@ Please note:
     java -cp ".:sqlite-jdbc.jar" LoginService
     
     The application will prompt you for a username and password to attempt login.
+
+### If You Solve the Challenge
+
+Once you've identified the bug, exploit it to bypass the authentication. Post your solution on Twitter using the hashtag #CTFCodeReview and tag @coffeensecurity. We’ll be tracking submissions and will announce the winner two weeks after the post!
